@@ -1,9 +1,8 @@
-let password = "пароль";
-prompt ("Введите пароль");
+let password = prompt("Введите пароль");
 if (password === 'пароль') {
-    console.log ("Пароль введен верно");
+    alert("Пароль введен верно");
 } else {
-    console.log ("Пароль введен неправильно");
+    alert("Пароль введен неправильно");
 }
 
 let c = 7;
@@ -22,9 +21,9 @@ if (d > 100 || e > 100) {
     console.log ("Неверно");
 }
 
-let a = '2';
-let b = '3';
-console.log(a + b);
+let a = 2;
+let b = 3;
+alert(a + b);
 
 let month = Number(prompt("Введите номер месяца"));
 
