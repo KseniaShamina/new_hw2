@@ -23,7 +23,7 @@ if (d > 100 || e > 100) {
 
 let a = 2;
 let b = 3;
-alert(a + b);
+alert(Number(a + b));
 
 let month = Number(prompt("Введите номер месяца"));
 
